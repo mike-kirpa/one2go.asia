@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="one2go" verbose="1" >
+
+    <test name="Buy ticket in [Chrome]" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.test"/>
+        </classes>
+    </test>
+<!--
+    <test name="Buy ticket in [firefox]" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.test"/>
+        </classes>
+    </test>
+
+    <test name="Buy ticket in [IE]" >
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name="tests.test"/>
+        </classes>
+  </test>
+-->
+</suite>
